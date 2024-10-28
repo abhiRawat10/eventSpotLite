@@ -1,5 +1,6 @@
 # eventSpotLite- 👋 Hi, I’m @abhiRawat10
 - I tried to keep it simple and minimal
+- src folder have all all project files.
 - to start the app
 -  1. cd eventspot-lite
    2. npm start
