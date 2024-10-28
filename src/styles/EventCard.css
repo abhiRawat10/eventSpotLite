@@ -1,0 +1,42 @@
+/* EventCard.css */
+
+.event-card {
+   background-color: #ffffff; /* Clean white card background */
+   border: 1px solid #ddd; /* Light gray border for subtle definition */
+   border-radius: 12px; /* Softer corners */
+   padding: 20px;
+   margin: 15px 0;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+   cursor: pointer;
+   opacity: 1;
+   color: #333; /* Dark gray for readable text */
+}
+
+/* Card title styling */
+.event-card h2 {
+   color: #6b217d; /* Rich purple for title */
+   font-size: 1.5rem;
+   margin: 0 0 10px;
+}
+
+/* Card text styling */
+.event-card p {
+   color: #555; /* Medium gray for other text */
+   margin: 5px 0;
+}
+
+/* Hover effect */
+.event-card:hover {
+   transform: translateY(-10px) scale(1.05); /* Lift effect with subtle scaling */
+   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+   background-color: #f9f1ff; /* Light lavender background on hover */
+}
+
+/* Optional image styling inside the card */
+.event-card img {
+   width: 100%;
+   height: auto;
+   border-radius: 8px; /* Matches card corners */
+   margin-bottom: 10px;
+}

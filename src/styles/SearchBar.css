@@ -1,0 +1,19 @@
+/* SearchBar.css */
+
+.search-bar {
+   width: 98%;
+   padding: 15px;
+   margin-bottom: 20px;
+   border: 2px solid #ccc;
+   border-radius: 8px;
+   font-size: 1.1rem;
+   transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+/* Focus effect */
+.search-bar:focus {
+   border-color: #3490dc; /* Blue border on focus */
+   box-shadow: 0 4px 8px rgba(52, 144, 220, 0.2); /* Subtle shadow on focus */
+   transform: scale(1.01); /* Slightly scales up */
+   outline: none; /* Remove default outline */
+}
